@@ -1,18 +1,13 @@
 {
   "name": "gulp-remove-dev",
   "productName": "gulp-remove-dev",
-  "description": "Removes code with '//<remove> and //</remove>'",
-  "version": "0.1",
+  "description": "Removes code with //<remove> and //</remove>",
+  "version": "0.1.0",
   "author": "lukas.datte",
-  "copyright": "© 2019, lukas.datte",
+  "copyright": "© 2020, lukas.datte",
   "repository": "",
   "license": "MIT",
-  "scripts": {
-    "build": "gulp build",
-    "release": "gulp release"
-  },
   "devDependencies": {
     "gulp-replace": "^1.0.0"
   }
 }
-git
