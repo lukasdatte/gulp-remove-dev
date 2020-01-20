@@ -1,7 +1,7 @@
 {
-  "name": "gulp-remove",
-  "productName": "gulp-remove",
-  "description": "Patcher, which allows merging of NPC looks mods with non look mods like 'Diversity - A Character Overhaul' (looks) and 'Immersive Weapons' (non looks).",
+  "name": "gulp-remove-dev",
+  "productName": "gulp-remove-dev",
+  "description": "Removes code with '//<remove> and //</remove>'",
   "version": "0.1",
   "author": "lukas.datte",
   "copyright": "© 2019, lukas.datte",
@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "gulp-replace": "^1.0.0"
-  },
-  "dependencies": {}
+  }
 }
+git

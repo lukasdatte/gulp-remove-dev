@@ -4,6 +4,6 @@ const replace = require('gulp-replace');
 //const replaceDevBeginning = /^.*\/\/<remove beginning>(?:\s*$)/gms;
 const remove = /(^.*\/\/<remove beginning>(?:\s*$))|((?:^\s*)?\/\/<remove((>.*?\/\/<\/remove>(?:\s*$)?)|( +end>.*$)))/gms;
 
-exports = function () {
+module.exports = function () {
     return replace(remove, "");
 };
