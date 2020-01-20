@@ -7,3 +7,5 @@ const remove = /(^.*\/\/<remove beginning>(?:\s*$))|((?:^\s*)?\/\/<remove((>.*?\
 module.exports = function () {
     return replace(remove, "");
 };
+
+module.exports.regex = remove;
