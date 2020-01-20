@@ -12,7 +12,6 @@
     "release": "gulp release"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
     "gulp-replace": "^1.0.0"
   },
   "dependencies": {}
